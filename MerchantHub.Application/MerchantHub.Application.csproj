@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MerchantHub.Domain\MerchantHub.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

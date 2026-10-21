@@ -7,11 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.32" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.4" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MerchantHub.Application\MerchantHub.Application.csproj" />
+    <ProjectReference Include="..\MerchantHub.Infrastructure\MerchantHub.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
