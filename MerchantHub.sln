@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37628.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchantHub.Domain", "MerchantHub.Domain\MerchantHub.Domain.csproj", "{997DF466-5243-4DA6-B15D-907B33D34E09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchantHub.Infrastructure", "MerchantHub.Infrastructure\MerchantHub.Infrastructure.csproj", "{0BAB4437-EB44-4BF5-9A2C-C72CAE8D2780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchantHub.Application", "MerchantHub.Application\MerchantHub.Application.csproj", "{66D68CC2-5B2D-4FF6-8E4F-1E74E1CF735D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchantHub.Api", "MerchantHub.Api\MerchantHub.Api.csproj", "{DC661A00-EE47-4891-9DAD-CE0218330480}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{B876FAB2-1122-4206-BBAF-8F84B01882AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{997DF466-5243-4DA6-B15D-907B33D34E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997DF466-5243-4DA6-B15D-907B33D34E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997DF466-5243-4DA6-B15D-907B33D34E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997DF466-5243-4DA6-B15D-907B33D34E09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BAB4437-EB44-4BF5-9A2C-C72CAE8D2780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BAB4437-EB44-4BF5-9A2C-C72CAE8D2780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BAB4437-EB44-4BF5-9A2C-C72CAE8D2780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BAB4437-EB44-4BF5-9A2C-C72CAE8D2780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D68CC2-5B2D-4FF6-8E4F-1E74E1CF735D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D68CC2-5B2D-4FF6-8E4F-1E74E1CF735D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D68CC2-5B2D-4FF6-8E4F-1E74E1CF735D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D68CC2-5B2D-4FF6-8E4F-1E74E1CF735D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC661A00-EE47-4891-9DAD-CE0218330480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC661A00-EE47-4891-9DAD-CE0218330480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC661A00-EE47-4891-9DAD-CE0218330480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC661A00-EE47-4891-9DAD-CE0218330480}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{997DF466-5243-4DA6-B15D-907B33D34E09} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{0BAB4437-EB44-4BF5-9A2C-C72CAE8D2780} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{66D68CC2-5B2D-4FF6-8E4F-1E74E1CF735D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{DC661A00-EE47-4891-9DAD-CE0218330480} = {B876FAB2-1122-4206-BBAF-8F84B01882AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6970E0D-9CA0-4287-86E0-E0D9C9815C67}
+	EndGlobalSection
+EndGlobal
